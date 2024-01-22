@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Travel Explorer</title>
+</head>
+<body>
+    <header>
+        <h1>Travel Explorer</h1>
+        <p>Your gateway to exciting destinations</p>
+    </header>
+    <section class="search-section">
+        <h2>Find Your Next Adventure</h2>
+        <form>
+            <input type="text" placeholder="Enter a destination">
+            <button type="submit">Search</button>
+        </form>
+    </section>
+    <section class="featured-destinations">
+        <h2>Featured Destinations</h2>
+        <div class="destination-card">
+            <img src="paris.jpg" alt="Paris, France">
+            <h3>Paris, France</h3>
+            <p>Explore the city of love and lights</p>
+        </div>
+        <!-- Add more destination cards as needed -->
+    </section>
+    <footer>
+        <p>&copy; 2024 Travel Explorer</p>
+    </footer>
+</body>
+</html>
